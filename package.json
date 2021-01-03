@@ -9,13 +9,17 @@
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.8.6",
     "bootstrap": "^4.5.3",
     "next": "10.0.4",
+    "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "reactstrap": "^8.8.1"
+    "reactstrap": "^8.8.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "description": "controle de corridas",
   "main": "index.js",
