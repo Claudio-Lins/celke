@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.5.3",
+    "next": "10.0.4",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "reactstrap": "^8.8.1"
+  },
+  "description": "controle de corridas",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claudio-Lins/tvde-online.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Claudio-Lins/tvde-online/issues"
+  },
+  "homepage": "https://github.com/Claudio-Lins/tvde-online#readme"
+}
