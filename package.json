@@ -10,12 +10,15 @@
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^10.2.1",
     "bootstrap": "^4.5.3",
     "next": "10.0.4",
+    "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "reactstrap": "^8.8.1"
+    "reactstrap": "^8.8.1",
+    "tailwindcss": "^2.0.2"
   },
   "description": "controle de corridas",
   "main": "index.js",
