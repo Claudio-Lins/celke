@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/style.css';
 import Menu from '../components/Menu';
-import { Component } from 'react';
-import { Container, Form, FormGroup, Button, Jumbotron, FormControl} from 'reactstrap';
+import React, { Component } from 'react';
+import { Container, Jumbotron, Form, FormGroup, Input, Button } from 'reactstrap';
+
 
 class Entradas extends Component {
     render() {
@@ -18,17 +19,24 @@ class Entradas extends Component {
                 <Jumbotron fluid>
                     <Container>
                         <Form>
-                            <FormGroup>
-                                <InputGroup className="mb-3">
-                                    <InputGroup.Prepend>
-                                        <InputGroup.Text>$</InputGroup.Text>
-                                    </InputGroup.Prepend>
-                                    <FormControl aria-label="Amount (to the nearest dollar)" />
-                                    <InputGroup.Append>
-                                        <InputGroup.Text>.00</InputGroup.Text>
-                                    </InputGroup.Append>
-                                </InputGroup>
-                                <Button></Button>
+                            <FormGroup className='flex px-96 space-x-2'>
+                                <Input className='p-4' type='number' name='uberEntrada' id='uberEntrada' placeholder='Uber'></Input>
+                                <Button>Uber</Button>
+                            </FormGroup>
+
+                            <FormGroup className='flex px-96 space-x-2'>
+                                <Input className='p-4' type='number' name='boltEntrada' id='boltEntrada' placeholder='Bolt'></Input>
+                                <Button>Bolt</Button>
+                            </FormGroup>
+
+                            <FormGroup className='flex px-96 space-x-2'>
+                                <Input className='p-4' type='number' name='freeNowEntrada' id='freeNowEntrada' placeholder='FreeNow'></Input>
+                                <Button>FreeNow</Button>
+                            </FormGroup>
+
+                            <FormGroup className='flex px-96 space-x-2'>
+                                <Input className='p-4' type='number' name='uberEatsEntrada' id='uberEatsEntrada' placeholder='UberEats'></Input>
+                                <Button>UberEats</Button>
                             </FormGroup>
                         </Form>
                     </Container>

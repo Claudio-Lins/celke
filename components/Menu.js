@@ -26,7 +26,7 @@ const Menu = () => {
         <div>
             <Navbar color="dark" dark expand="md">
                 <Container>
-                    <NavbarBrand href="/">Celke</NavbarBrand>
+                    <NavbarBrand href="/">LinsTur</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
@@ -38,6 +38,9 @@ const Menu = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLink href="/contacto">Contacto</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/entradas">Entradas</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
